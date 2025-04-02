@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Anime Finder</h1>
+        <input type="text" id="search" placeholder="Digite o nome do anime...">
+        <button onclick="searchAnime()">Buscar</button>
+    </header>
+    <main id="anime-container"></main>
+
+    <select id="genre">
+        <option value="">Todos os Gêneros</option>
+        <option value="1">Ação</option>
+        <option value="2">Aventura</option>
+        <option value="4">Comédia</option>
+        <option value="7">Drama</option>
+        <option value="14">Horror</option>
+        <option value="24">Sci-Fi</option>
+    </select>
+
+    <select id="sort">
+        <option value="popularity">Mais Populares</option>
+        <option value="airing_start">Mais Recentes</option>
+    </select>
+    
+    <script src="script.js"></script>
+</body>
+</html>
